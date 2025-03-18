@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.StartController">
+   <children>
+      <TableView fx:id="betTable" layoutX="171.0" layoutY="28.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Név" />
+          <TableColumn prefWidth="75.0" text="Fogadás" />
+        </columns>
+      </TableView>
+      <TextField fx:id="nameField" layoutX="74.0" layoutY="264.0" />
+      <Button layoutX="97.0" layoutY="338.0" mnemonicParsing="false" onAction="#onClickAddButton" text="Hozzáad" />
+      <Label layoutX="83.0" layoutY="247.0" text="Név" />
+      <Label layoutX="241.0" layoutY="239.0" text="Fogadás" />
+      <ComboBox fx:id="betCombo" layoutX="241.0" layoutY="264.0" prefWidth="150.0" promptText="Válassz" />
+      <Button layoutX="197.0" layoutY="338.0" mnemonicParsing="false" onAction="#onClickRaceButton" text="Versenyhez" />
+   </children>
+</Pane>
