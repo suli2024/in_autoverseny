@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+
+<Pane fx:id="boardPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.MainController">
+   <children>
+      <ListView fx:id="resultList" layoutX="245.0" layoutY="14.0" prefHeight="83.0" prefWidth="111.0" />
+      <Line endX="100.0" endY="-77.0" layoutX="424.0" layoutY="166.0" startX="100.0" startY="108.0" />
+      <Button layoutX="109.0" layoutY="334.0" mnemonicParsing="false" onAction="#onClickStartButton" text="Start" />
+      <Button layoutX="266.0" layoutY="334.0" mnemonicParsing="false" onAction="#onClickStopButton" text="Stop" />
+      <Button layoutX="426.0" layoutY="334.0" mnemonicParsing="false" onAction="#onClickBackButton" text="Vissza" />
+   </children>
+</Pane>
