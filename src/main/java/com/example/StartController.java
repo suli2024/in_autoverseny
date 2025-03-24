@@ -36,13 +36,11 @@ public class StartController {
             "zöld", 
             "sárga"
             );
-
         winCombo.setPromptText("Válassz");
     }
 
     @FXML
     void onClickAddButton(ActionEvent event) {
-        System.out.println("hozzáadás...");
         String name = nameField.getText();
         String win = winCombo.getValue();
         Bet bet = new Bet();
@@ -54,7 +52,6 @@ public class StartController {
 
     @FXML
     void onClickRaceButton(ActionEvent event) {
-        System.out.println("műkszik");
         App.setRoot("mainScene");
     }   
 
