@@ -12,5 +12,6 @@
       <Button layoutX="109.0" layoutY="334.0" mnemonicParsing="false" onAction="#onClickStartButton" text="Start" />
       <Button layoutX="266.0" layoutY="334.0" mnemonicParsing="false" onAction="#onClickStopButton" text="Stop" />
       <Button layoutX="426.0" layoutY="334.0" mnemonicParsing="false" onAction="#onClickBackButton" text="Vissza" />
+      <Button layoutX="422.0" layoutY="22.0" mnemonicParsing="false" onAction="#onClickPreviousButton" text="Előző" />
    </children>
 </Pane>
