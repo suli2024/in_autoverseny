@@ -22,5 +22,6 @@
       <Label layoutX="241.0" layoutY="239.0" text="Fogadás" />
       <ComboBox fx:id="winCombo" accessibleText="Válassz" layoutX="241.0" layoutY="264.0" prefWidth="150.0" promptText="Válassz" />
       <Button layoutX="197.0" layoutY="338.0" mnemonicParsing="false" onAction="#onClickRaceButton" text="Versenyhez" />
+      <Button layoutX="319.0" layoutY="338.0" mnemonicParsing="false" onAction="#onClickAboutButton" text="Névjegy" />
    </children>
 </Pane>
